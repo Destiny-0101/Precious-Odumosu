@@ -1,0 +1,351 @@
+
+/* =========================================
+   PORTFOLIO HERO
+========================================= */
+
+.portfolio-hero {
+    background: #F8F6F0;
+    padding: 120px 0 100px;
+}
+
+.portfolio-hero .section-label,
+.section-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #B69A68;
+    margin-bottom: 22px;
+}
+
+.portfolio-hero h1 {
+    max-width: 900px;
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 6vw, 76px);
+    line-height: 1.12;
+    font-weight: 500;
+    color: #17243A;
+    margin-bottom: 28px;
+}
+
+.portfolio-hero h1 span {
+    display: block;
+    color: #B69A68;
+}
+
+.portfolio-hero-text {
+    max-width: 570px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #62666D;
+    margin-bottom: 35px;
+}
+
+.portfolio-scroll {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #17243A;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #B69A68;
+    padding-bottom: 8px;
+}
+
+.portfolio-scroll span {
+    color: #B69A68;
+}
+
+
+/* =========================================
+   PROJECT SECTION
+========================================= */
+
+.portfolio-projects {
+    background: #FFFFFF;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.portfolio-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+    margin-bottom: 55px;
+}
+
+.portfolio-section-heading h2,
+.approach-heading h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.2;
+    font-weight: 500;
+    color: #17243A;
+    max-width: 550px;
+}
+
+.portfolio-section-heading > p {
+    max-width: 320px;
+    color: #686D75;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 55px 35px;
+}
+
+.project-card {
+    min-width: 0;
+}
+
+.project-image {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    background: #EAE7DF;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.04);
+}
+
+.project-number {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #17243A;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.project-content {
+    padding: 25px 0 0;
+}
+
+.project-category {
+    color: #B69A68;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-bottom: 13px;
+}
+
+.project-content h3 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #17243A;
+    margin-bottom: 14px;
+}
+
+.project-description {
+    max-width: 460px;
+    color: #686D75;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.project-link {
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    color: #17243A;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #B69A68;
+    padding-bottom: 7px;
+}
+
+.project-link span {
+    color: #B69A68;
+}
+
+
+/* =========================================
+   APPROACH SECTION
+========================================= */
+
+.portfolio-approach {
+    background: #F8F6F0;
+}
+
+.approach-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.approach-heading h2 {
+    max-width: 480px;
+}
+
+.approach-content p {
+    color: #62666D;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
+
+.text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #17243A;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #B69A68;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.text-link span {
+    color: #B69A68;
+}
+
+
+/* =========================================
+   CALL TO ACTION
+========================================= */
+
+.portfolio-cta {
+    background: #17243A;
+    text-align: center;
+}
+
+.portfolio-cta .section-label {
+    color: #D1B98F;
+}
+
+.portfolio-cta h2 {
+    max-width: 700px;
+    margin: 0 auto 22px;
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 5vw, 62px);
+    line-height: 1.15;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.portfolio-cta h2 span {
+    display: block;
+    color: #D1B98F;
+}
+
+.portfolio-cta > .container > p:not(.section-label) {
+    max-width: 520px;
+    margin: 0 auto 32px;
+    color: #D0D4DC;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.portfolio-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 28px;
+    background: #D1B98F;
+    color: #17243A;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background 0.3s ease;
+}
+
+.portfolio-cta-button:hover {
+    background: #FFFFFF;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 900px) {
+
+    .portfolio-hero {
+        padding: 90px 0 80px;
+    }
+
+    .portfolio-section-heading {
+        display: block;
+    }
+
+    .portfolio-section-heading > p {
+        margin-top: 20px;
+    }
+
+    .project-image {
+        height: 300px;
+    }
+
+    .approach-grid {
+        gap: 45px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .section-padding {
+        padding: 75px 0;
+    }
+
+    .portfolio-hero {
+        padding: 75px 0 70px;
+    }
+
+    .portfolio-hero h1 {
+        font-size: 43px;
+    }
+
+    .portfolio-hero-text {
+        font-size: 15px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .project-image {
+        height: 280px;
+    }
+
+    .project-content h3 {
+        font-size: 27px;
+    }
+
+    .approach-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .portfolio-cta h2 {
+        font-size: 40px;
+    }
+}

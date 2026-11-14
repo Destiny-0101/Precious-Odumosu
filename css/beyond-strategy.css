@@ -1,0 +1,369 @@
+
+/* =========================================
+   BEYOND STRATEGY - HERO
+========================================= */
+
+.beyond-hero {
+    background: #F8F6F0;
+    padding: 100px 0;
+}
+
+.beyond-hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.beyond-hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(48px, 6vw, 76px);
+    line-height: 1.1;
+    font-weight: 500;
+    color: #17243A;
+    margin-bottom: 25px;
+}
+
+.beyond-hero h1 span {
+    display: block;
+    color: #B69A68;
+}
+
+.beyond-hero-content > p:not(.section-label) {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #62666D;
+    margin-bottom: 30px;
+}
+
+.beyond-scroll {
+    display: inline-flex;
+    gap: 12px;
+    color: #17243A;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #B69A68;
+    padding-bottom: 8px;
+}
+
+.beyond-scroll span {
+    color: #B69A68;
+}
+
+.beyond-hero-image {
+    height: 490px;
+    background: #EAE7DF;
+    overflow: hidden;
+}
+
+.beyond-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* =========================================
+   SHARED SECTION STYLING
+========================================= */
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-label {
+    color: #B69A68;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   INTRODUCTION
+========================================= */
+
+.beyond-intro {
+    background: #FFFFFF;
+}
+
+.beyond-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.beyond-intro h2,
+.beyond-section-heading h2,
+.perspective-content h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(34px, 4vw, 49px);
+    line-height: 1.2;
+    font-weight: 500;
+    color: #17243A;
+}
+
+.beyond-intro-text p,
+.perspective-content p:not(.section-label) {
+    color: #62666D;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   INTERESTS
+========================================= */
+
+.beyond-interests {
+    background: #F8F6F0;
+}
+
+.beyond-section-heading {
+    max-width: 650px;
+    margin-bottom: 55px;
+}
+
+.beyond-section-heading > p:last-child {
+    color: #686D75;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 18px;
+}
+
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.interest-card {
+    background: #FFFFFF;
+    padding: 38px;
+    min-height: 235px;
+    border: 1px solid #ECE9E2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(23, 36, 58, 0.07);
+}
+
+.interest-number {
+    color: #B69A68;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+.interest-card h3 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #17243A;
+    margin-bottom: 13px;
+}
+
+.interest-card p {
+    color: #686D75;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   PERSONAL PERSPECTIVE
+========================================= */
+
+.beyond-perspective {
+    background: #FFFFFF;
+}
+
+.perspective-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.perspective-image {
+    height: 480px;
+    background: #EAE7DF;
+    overflow: hidden;
+}
+
+.perspective-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.perspective-content h2 {
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   PERSONAL NOTE
+========================================= */
+
+.beyond-note {
+    background: #F8F6F0;
+    text-align: center;
+}
+
+.beyond-note h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(40px, 5vw, 64px);
+    line-height: 1.15;
+    font-weight: 500;
+    color: #17243A;
+    margin-bottom: 22px;
+}
+
+.beyond-note h2 span {
+    display: block;
+    color: #B69A68;
+}
+
+.beyond-note .container > p:last-child {
+    max-width: 550px;
+    margin: 0 auto;
+    color: #686D75;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   CALL TO ACTION
+========================================= */
+
+.beyond-cta {
+    background: #17243A;
+    text-align: center;
+}
+
+.beyond-cta .section-label {
+    color: #D1B98F;
+}
+
+.beyond-cta h2 {
+    max-width: 700px;
+    margin: 0 auto 22px;
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 5vw, 60px);
+    line-height: 1.15;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.beyond-cta > .container > p:not(.section-label) {
+    max-width: 520px;
+    margin: 0 auto 32px;
+    color: #D0D4DC;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.beyond-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 28px;
+    background: #D1B98F;
+    color: #17243A;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background 0.3s ease;
+}
+
+.beyond-cta-button:hover {
+    background: #FFFFFF;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 900px) {
+
+    .beyond-hero-grid,
+    .beyond-intro-grid,
+    .perspective-grid {
+        gap: 45px;
+    }
+
+    .beyond-hero-image {
+        height: 400px;
+    }
+
+    .perspective-image {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .section-padding {
+        padding: 75px 0;
+    }
+
+    .beyond-hero {
+        padding: 75px 0;
+    }
+
+    .beyond-hero-grid,
+    .beyond-intro-grid,
+    .perspective-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .beyond-hero h1 {
+        font-size: 47px;
+    }
+
+    .beyond-hero-image {
+        height: 350px;
+    }
+
+    .beyond-intro h2,
+    .beyond-section-heading h2,
+    .perspective-content h2 {
+        font-size: 36px;
+    }
+
+    .interest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .interest-card {
+        padding: 30px;
+        min-height: auto;
+    }
+
+    .perspective-image {
+        height: 350px;
+    }
+
+    .beyond-note h2 {
+        font-size: 42px;
+    }
+
+    .beyond-cta h2 {
+        font-size: 40px;
+    }
+}
