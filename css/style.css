@@ -3,21 +3,25 @@
    GLOBAL VARIABLES
 ========================================= */
 
+
+
 :root {
-    --navy: #17243A;
-    --navy-light: #253750;
-    --cream: #F8F6F0;
+    --navy: #35102D;
+    --navy-light: #54264B;
+    --cream: #FAF7F4;
     --white: #FFFFFF;
-    --charcoal: #292929;
-    --muted: #777777;
-    --gold: #B69A68;
-    --border: #E6E2D9;
+    --charcoal: #29232A;
+    --muted: #777078;
+    --gold: #54264B;
+    --border: #E9DDE4;
 
-    --heading-font: 'Playfair Display', serif;
-    --body-font: 'DM Sans', sans-serif;
-
-    --container: 1200px;
+    --plum-dark: #260B21;
+    --plum-main: #35102D;
+    --plum-light: #54264B;
+    --mauve: #F5EAF0;
 }
+
+
 
 
 /* =========================================

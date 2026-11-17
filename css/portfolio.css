@@ -4,7 +4,7 @@
 ========================================= */
 
 .portfolio-hero {
-    background: #F8F6F0;
+    background: #FAF7F4;
     padding: 120px 0 100px;
 }
 
@@ -13,7 +13,7 @@
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #B69A68;
+    color: #8B5A7D;
     margin-bottom: 22px;
 }
 
@@ -23,20 +23,20 @@
     font-size: clamp(42px, 6vw, 76px);
     line-height: 1.12;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
     margin-bottom: 28px;
 }
 
 .portfolio-hero h1 span {
     display: block;
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .portfolio-hero-text {
     max-width: 570px;
     font-size: 17px;
     line-height: 1.8;
-    color: #62666D;
+    color: #777078;
     margin-bottom: 35px;
 }
 
@@ -44,16 +44,16 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    color: #17243A;
+    color: #35102D;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid #B69A68;
+    border-bottom: 1px solid #8B5A7D;
     padding-bottom: 8px;
 }
 
 .portfolio-scroll span {
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 
@@ -62,7 +62,7 @@
 ========================================= */
 
 .portfolio-projects {
-    background: #FFFFFF;
+    background: #F5EAF0;
 }
 
 .section-padding {
@@ -83,13 +83,13 @@
     font-size: clamp(32px, 4vw, 48px);
     line-height: 1.2;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
     max-width: 550px;
 }
 
 .portfolio-section-heading > p {
     max-width: 320px;
-    color: #686D75;
+    color: #777078;
     font-size: 15px;
     line-height: 1.8;
 }
@@ -102,13 +102,15 @@
 
 .project-card {
     min-width: 0;
+    background: #FFFFFF;
+    padding: 0 0 25px;
 }
 
 .project-image {
     position: relative;
     height: 360px;
     overflow: hidden;
-    background: #EAE7DF;
+    background: #E6C6D9;
 }
 
 .project-image img {
@@ -133,18 +135,18 @@
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #FFFFFF;
-    color: #17243A;
+    background: #35102D;
+    color: #FFFFFF;
     font-size: 13px;
     font-weight: 700;
 }
 
 .project-content {
-    padding: 25px 0 0;
+    padding: 25px 25px 0;
 }
 
 .project-category {
-    color: #B69A68;
+    color: #8B5A7D;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 1.8px;
@@ -155,13 +157,13 @@
     font-family: Georgia, serif;
     font-size: 30px;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
     margin-bottom: 14px;
 }
 
 .project-description {
     max-width: 460px;
-    color: #686D75;
+    color: #777078;
     font-size: 15px;
     line-height: 1.8;
     margin-bottom: 22px;
@@ -171,16 +173,16 @@
     display: inline-flex;
     gap: 12px;
     align-items: center;
-    color: #17243A;
+    color: #35102D;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid #B69A68;
+    border-bottom: 1px solid #8B5A7D;
     padding-bottom: 7px;
 }
 
 .project-link span {
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 
@@ -189,7 +191,7 @@
 ========================================= */
 
 .portfolio-approach {
-    background: #F8F6F0;
+    background: #FAF7F4;
 }
 
 .approach-grid {
@@ -204,7 +206,7 @@
 }
 
 .approach-content p {
-    color: #62666D;
+    color: #777078;
     font-size: 16px;
     line-height: 1.9;
     margin-bottom: 22px;
@@ -214,16 +216,16 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    color: #17243A;
+    color: #35102D;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid #B69A68;
+    border-bottom: 1px solid #8B5A7D;
     padding-bottom: 8px;
     margin-top: 10px;
 }
 
 .text-link span {
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 
@@ -232,12 +234,12 @@
 ========================================= */
 
 .portfolio-cta {
-    background: #17243A;
+    background: linear-gradient(135deg, #260B21 0%, #35102D 65%, #54264B 100%);
     text-align: center;
 }
 
 .portfolio-cta .section-label {
-    color: #D1B98F;
+    color: #E6C6D9;
 }
 
 .portfolio-cta h2 {
@@ -252,13 +254,13 @@
 
 .portfolio-cta h2 span {
     display: block;
-    color: #D1B98F;
+    color: #E6C6D9;
 }
 
 .portfolio-cta > .container > p:not(.section-label) {
     max-width: 520px;
     margin: 0 auto 32px;
-    color: #D0D4DC;
+    color: #F5EAF0;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -268,8 +270,8 @@
     align-items: center;
     gap: 15px;
     padding: 16px 28px;
-    background: #D1B98F;
-    color: #17243A;
+    background: #F5EAF0;
+    color: #35102D;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;

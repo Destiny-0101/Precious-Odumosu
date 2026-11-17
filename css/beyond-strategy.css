@@ -4,7 +4,7 @@
 ========================================= */
 
 .beyond-hero {
-    background: #F8F6F0;
+    background: #FAF7F4;
     padding: 100px 0;
 }
 
@@ -20,41 +20,41 @@
     font-size: clamp(48px, 6vw, 76px);
     line-height: 1.1;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
     margin-bottom: 25px;
 }
 
 .beyond-hero h1 span {
     display: block;
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .beyond-hero-content > p:not(.section-label) {
     max-width: 500px;
     font-size: 16px;
     line-height: 1.9;
-    color: #62666D;
+    color: #777078;
     margin-bottom: 30px;
 }
 
 .beyond-scroll {
     display: inline-flex;
     gap: 12px;
-    color: #17243A;
+    color: #35102D;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    border-bottom: 1px solid #B69A68;
+    border-bottom: 1px solid #8B5A7D;
     padding-bottom: 8px;
 }
 
 .beyond-scroll span {
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .beyond-hero-image {
     height: 490px;
-    background: #EAE7DF;
+    background: #E6C6D9;
     overflow: hidden;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .section-label {
-    color: #B69A68;
+    color: #8B5A7D;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -105,12 +105,12 @@
     font-size: clamp(34px, 4vw, 49px);
     line-height: 1.2;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
 }
 
 .beyond-intro-text p,
 .perspective-content p:not(.section-label) {
-    color: #62666D;
+    color: #777078;
     font-size: 16px;
     line-height: 1.9;
     margin-bottom: 20px;
@@ -122,7 +122,7 @@
 ========================================= */
 
 .beyond-interests {
-    background: #F8F6F0;
+    background: #F5EAF0;
 }
 
 .beyond-section-heading {
@@ -131,7 +131,7 @@
 }
 
 .beyond-section-heading > p:last-child {
-    color: #686D75;
+    color: #777078;
     font-size: 15px;
     line-height: 1.8;
     margin-top: 18px;
@@ -147,17 +147,17 @@
     background: #FFFFFF;
     padding: 38px;
     min-height: 235px;
-    border: 1px solid #ECE9E2;
+    border: 1px solid #E6C6D9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .interest-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(23, 36, 58, 0.07);
+    box-shadow: 0 12px 30px rgba(38, 11, 33, 0.08);
 }
 
 .interest-number {
-    color: #B69A68;
+    color: #8B5A7D;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -168,12 +168,12 @@
     font-family: Georgia, serif;
     font-size: 25px;
     font-weight: 500;
-    color: #17243A;
+    color: #35102D;
     margin-bottom: 13px;
 }
 
 .interest-card p {
-    color: #686D75;
+    color: #777078;
     font-size: 14px;
     line-height: 1.8;
 }
@@ -196,7 +196,7 @@
 
 .perspective-image {
     height: 480px;
-    background: #EAE7DF;
+    background: #E6C6D9;
     overflow: hidden;
 }
 
@@ -217,8 +217,12 @@
 ========================================= */
 
 .beyond-note {
-    background: #F8F6F0;
+    background: #260B21;
     text-align: center;
+}
+
+.beyond-note .section-label {
+    color: #E6C6D9;
 }
 
 .beyond-note h2 {
@@ -226,19 +230,19 @@
     font-size: clamp(40px, 5vw, 64px);
     line-height: 1.15;
     font-weight: 500;
-    color: #17243A;
+    color: #FFFFFF;
     margin-bottom: 22px;
 }
 
 .beyond-note h2 span {
     display: block;
-    color: #B69A68;
+    color: #E6C6D9;
 }
 
 .beyond-note .container > p:last-child {
     max-width: 550px;
     margin: 0 auto;
-    color: #686D75;
+    color: #F5EAF0;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -249,12 +253,12 @@
 ========================================= */
 
 .beyond-cta {
-    background: #17243A;
+    background: linear-gradient(135deg, #35102D 0%, #54264B 100%);
     text-align: center;
 }
 
 .beyond-cta .section-label {
-    color: #D1B98F;
+    color: #E6C6D9;
 }
 
 .beyond-cta h2 {
@@ -270,7 +274,7 @@
 .beyond-cta > .container > p:not(.section-label) {
     max-width: 520px;
     margin: 0 auto 32px;
-    color: #D0D4DC;
+    color: #F5EAF0;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -280,8 +284,8 @@
     align-items: center;
     gap: 15px;
     padding: 16px 28px;
-    background: #D1B98F;
-    color: #17243A;
+    background: #F5EAF0;
+    color: #35102D;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;

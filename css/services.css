@@ -4,7 +4,9 @@
 ========================================= */
 
 .services-hero {
-    background: #F8F6F0;
+    background:
+        radial-gradient(circle at 85% 15%, rgba(139, 91, 126, 0.25), transparent 35%),
+        linear-gradient(125deg, #260B21, #35102D);
     padding: 125px 9%;
     text-align: center;
 }
@@ -19,7 +21,7 @@
     font-size: clamp(45px, 6vw, 76px);
     line-height: 1.15;
     font-weight: 400;
-    color: #17243A;
+    color: #FFFFFF;
     margin-bottom: 28px;
 }
 
@@ -29,20 +31,20 @@
 .clients-section h2 span,
 .process-heading h2 span,
 .services-cta h2 span {
-    color: #B69A68;
+    color: #E6C6D9;
 }
 
 .services-hero p {
     max-width: 620px;
     margin: 0 auto 35px;
-    color: #777;
+    color: #E0D2DC;
     font-size: 16px;
     line-height: 1.9;
 }
 
 .eyebrow {
     display: inline-block;
-    color: #B69A68;
+    color: #E6C6D9;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2.5px;
@@ -58,22 +60,23 @@
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #B69A68;
+    color: #8B5A7D;
     margin-bottom: 45px;
 }
 
 .service-button {
     display: inline-block;
     padding: 17px 32px;
-    background: #17243A;
-    color: #fff;
+    background: #FAF7F4;
+    color: #260B21;
     text-decoration: none;
     font-size: 13px;
     transition: 0.3s ease;
 }
 
 .service-button:hover {
-    background: #B69A68;
+    background: #E6C6D9;
+    color: #260B21;
 }
 
 .service-button span {
@@ -86,7 +89,7 @@
 ========================================= */
 
 .services-intro {
-    background: #fff;
+    background: #FAF7F4;
 }
 
 .services-intro-grid {
@@ -104,13 +107,20 @@
     font-size: clamp(35px, 4.5vw, 52px);
     line-height: 1.25;
     font-weight: 400;
-    color: #17243A;
+    color: #35102D;
+}
+
+.services-intro h2 span,
+.services-heading h2 span,
+.clients-section h2 span,
+.process-heading h2 span {
+    color: #8B5A7D;
 }
 
 .services-intro-grid > div p {
     font-size: 14px;
     line-height: 2;
-    color: #777;
+    color: #777078;
     margin-bottom: 20px;
 }
 
@@ -120,7 +130,7 @@
 ========================================= */
 
 .services-list {
-    background: #F8F6F0;
+    background: #F5EAF0;
 }
 
 .services-heading,
@@ -142,7 +152,7 @@
     max-width: 340px;
     font-size: 14px;
     line-height: 1.9;
-    color: #777;
+    color: #777078;
 }
 
 .services-grid {
@@ -152,9 +162,9 @@
 }
 
 .service-card {
-    background: #fff;
+    background: #FFFFFF;
     padding: 40px;
-    border: 1px solid #eee9df;
+    border: 1px solid #E9DDE4;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -162,12 +172,13 @@
 
 .service-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 15px 35px rgba(23, 36, 58, 0.07);
+    box-shadow: 0 15px 35px rgba(38, 11, 33, 0.08);
 }
 
 .featured-service {
-    background: #17243A;
-    color: #fff;
+    background: #260B21;
+    color: #FFFFFF;
+    border-color: #260B21;
 }
 
 .service-card-top {
@@ -180,20 +191,26 @@
 .service-number {
     font-family: Georgia, serif;
     font-size: 35px;
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .service-icon {
     font-size: 30px;
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .service-category {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #B69A68;
+    color: #8B5A7D;
     margin-bottom: 18px;
+}
+
+.featured-service .service-number,
+.featured-service .service-icon,
+.featured-service .service-category {
+    color: #E6C6D9;
 }
 
 .service-card h3 {
@@ -201,23 +218,23 @@
     font-weight: 400;
     font-size: 27px;
     line-height: 1.3;
-    color: #17243A;
+    color: #35102D;
     margin-bottom: 18px;
 }
 
 .featured-service h3 {
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .service-card > p {
     font-size: 14px;
     line-height: 1.9;
-    color: #777;
+    color: #777078;
     margin-bottom: 25px;
 }
 
 .featured-service > p {
-    color: rgba(255,255,255,0.7);
+    color: #E0D2DC;
 }
 
 .service-card ul {
@@ -228,42 +245,47 @@
 
 .service-card li {
     font-size: 13px;
-    color: #555;
+    color: #55505A;
     padding: 11px 0;
-    border-bottom: 1px solid #eee9df;
+    border-bottom: 1px solid #E9DDE4;
 }
 
 .service-card li::before {
     content: "↗";
-    color: #B69A68;
+    color: #8B5A7D;
     margin-right: 12px;
 }
 
 .featured-service li {
-    color: rgba(255,255,255,0.8);
+    color: #E0D2DC;
     border-color: rgba(255,255,255,0.15);
+}
+
+.featured-service li::before {
+    color: #E6C6D9;
 }
 
 .service-link {
     display: inline-block;
     margin-top: auto;
     padding-top: 20px;
-    color: #17243A;
+    color: #35102D;
     text-decoration: none;
     font-size: 13px;
     font-weight: 700;
-    border-bottom: 1px solid #B69A68;
+    border-bottom: 1px solid #8B5A7D;
     padding-bottom: 9px;
     align-self: flex-start;
 }
 
 .featured-service .service-link {
-    color: #fff;
+    color: #FFFFFF;
+    border-color: #E6C6D9;
 }
 
 .service-disclaimer {
     margin-top: 30px;
-    color: #888;
+    color: #777078;
     font-size: 12px;
     font-style: italic;
 }
@@ -274,7 +296,7 @@
 ========================================= */
 
 .clients-section {
-    background: #fff;
+    background: #FFFFFF;
 }
 
 .clients-section > h2 {
@@ -290,13 +312,13 @@
 
 .client-card {
     padding: 30px 22px;
-    background: #F8F6F0;
+    background: #F5EAF0;
 }
 
 .client-card > span {
     font-family: Georgia, serif;
     font-size: 30px;
-    color: #B69A68;
+    color: #8B5A7D;
 }
 
 .client-card h3 {
@@ -304,12 +326,12 @@
     font-size: 21px;
     line-height: 1.4;
     font-weight: 400;
-    color: #17243A;
+    color: #35102D;
     margin: 25px 0 15px;
 }
 
 .client-card p {
-    color: #777;
+    color: #777078;
     font-size: 13px;
     line-height: 1.9;
 }
@@ -320,11 +342,24 @@
 ========================================= */
 
 .process-section {
-    background: #F8F6F0;
+    background: #35102D;
+    color: #FFFFFF;
+}
+
+.process-heading h2 {
+    color: #FFFFFF;
+}
+
+.process-heading h2 span {
+    color: #E6C6D9;
+}
+
+.process-heading > p {
+    color: #E0D2DC;
 }
 
 .process-list {
-    border-top: 1px solid #ded8cc;
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 
 .process-item {
@@ -332,20 +367,20 @@
     grid-template-columns: 100px 1fr;
     gap: 30px;
     padding: 35px 0;
-    border-bottom: 1px solid #ded8cc;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .process-item > span {
     font-family: Georgia, serif;
     font-size: 35px;
-    color: #B69A68;
+    color: #E6C6D9;
 }
 
 .process-item h3 {
     font-family: Georgia, serif;
     font-size: 25px;
     font-weight: 400;
-    color: #17243A;
+    color: #FFFFFF;
     margin-bottom: 12px;
 }
 
@@ -353,7 +388,7 @@
     max-width: 600px;
     font-size: 14px;
     line-height: 1.9;
-    color: #777;
+    color: #E0D2DC;
 }
 
 
@@ -362,8 +397,10 @@
 ========================================= */
 
 .services-cta {
-    background: #17243A;
-    color: #fff;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(139, 91, 126, 0.25), transparent 55%),
+        #260B21;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -380,21 +417,26 @@
     margin-bottom: 25px;
 }
 
+.services-cta h2 span {
+    color: #E6C6D9;
+}
+
 .services-cta p {
     max-width: 620px;
     margin: 0 auto 35px;
     font-size: 14px;
     line-height: 2;
-    color: rgba(255,255,255,0.7);
+    color: #E0D2DC;
 }
 
 .services-cta .service-button {
-    background: #B69A68;
-    color: #17243A;
+    background: #FAF7F4;
+    color: #260B21;
 }
 
 .services-cta .service-button:hover {
-    background: #fff;
+    background: #E6C6D9;
+    color: #260B21;
 }
 
 

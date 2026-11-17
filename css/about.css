@@ -4,12 +4,17 @@
 ========================================= */
 
 :root {
-    --about-cream: #F8F6F0;
-    --about-navy: #17243A;
-    --about-gold: #B69A68;
-    --about-charcoal: #333333;
-    --about-muted: #777777;
+    --about-cream: #FAF7F4;
+    --about-navy: #35102D;
+    --about-gold: #8B5A7D;
+    --about-charcoal: #29232A;
+    --about-muted: #777078;
     --about-white: #FFFFFF;
+
+    --about-plum-dark: #260B21;
+    --about-plum-light: #54264B;
+    --about-mauve: #F5EAF0;
+    --about-soft-pink: #E6C6D9;
 }
 
 body {
@@ -61,28 +66,30 @@ main {
     grid-template-columns: 1.1fr 0.9fr;
     align-items: center;
     gap: 70px;
-    background: var(--about-cream);
+    background:
+        radial-gradient(circle at 85% 15%, rgba(139, 91, 126, 0.25), transparent 35%),
+        linear-gradient(125deg, var(--about-plum-dark), var(--about-navy));
 }
 
 .about-hero-content h1 {
     font-family: Georgia, serif;
     font-size: clamp(48px, 6vw, 78px);
     line-height: 1.08;
-    color: var(--about-navy);
+    color: var(--about-white);
     margin-bottom: 28px;
     font-weight: 400;
 }
 
 .about-hero-content h1 span,
 .about-hero-content p span {
-    color: var(--about-gold);
+    color: var(--about-soft-pink);
 }
 
 .about-hero-content p {
     max-width: 510px;
     font-size: 17px;
     line-height: 1.9;
-    color: var(--about-muted);
+    color: #E0D2DC;
     margin-bottom: 35px;
 }
 
@@ -90,16 +97,16 @@ main {
     display: inline-flex;
     gap: 15px;
     align-items: center;
-    color: var(--about-navy);
+    color: var(--about-white);
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
-    border-bottom: 1px solid var(--about-gold);
+    border-bottom: 1px solid var(--about-soft-pink);
     padding-bottom: 10px;
 }
 
 .about-scroll span {
-    color: var(--about-gold);
+    color: var(--about-soft-pink);
     font-size: 18px;
 }
 
@@ -115,14 +122,14 @@ main {
     height: 540px;
     object-fit: cover;
     display: block;
-    background: #e8e3d8;
+    background: #E8DCE5;
 }
 
 .image-caption {
     position: absolute;
     bottom: 20px;
     left: -25px;
-    background: var(--about-navy);
+    background: var(--about-plum-dark);
     color: white;
     padding: 17px 25px;
     font-size: 13px;
@@ -135,7 +142,7 @@ main {
 ========================================= */
 
 .about-intro {
-    background: var(--about-white);
+    background: var(--about-cream);
 }
 
 .intro-grid {
@@ -179,7 +186,7 @@ main {
 ========================================= */
 
 .journey-section {
-    background: var(--about-cream);
+    background: var(--about-mauve);
 }
 
 .journey-header {
@@ -210,7 +217,7 @@ main {
 .journey-card {
     padding: 40px 30px;
     background: var(--about-white);
-    border-top: 2px solid var(--about-gold);
+    border-top: 3px solid var(--about-plum-light);
     transition: transform 0.3s ease;
 }
 
@@ -250,7 +257,7 @@ main {
 ========================================= */
 
 .philosophy-section {
-    background: var(--about-navy);
+    background: var(--about-plum-dark);
     color: white;
     text-align: center;
 }
@@ -269,13 +276,13 @@ main {
 }
 
 .philosophy-content h2 span {
-    color: var(--about-gold);
+    color: var(--about-soft-pink);
 }
 
 .philosophy-content p {
     max-width: 680px;
     margin: 0 auto 20px;
-    color: rgba(255,255,255,0.72);
+    color: #E0D2DC;
     font-size: 15px;
     line-height: 2;
 }
@@ -305,7 +312,7 @@ main {
 
 .value-card {
     padding: 30px 22px;
-    background: var(--about-cream);
+    background: var(--about-mauve);
 }
 
 .value-card span {
@@ -351,7 +358,7 @@ main {
     height: 480px;
     object-fit: cover;
     display: block;
-    background: #e8e3d8;
+    background: #E8DCE5;
 }
 
 .personal-content h2 {
@@ -391,7 +398,7 @@ main {
 ========================================= */
 
 .about-projects {
-    background: var(--about-white);
+    background: var(--about-mauve);
 }
 
 .projects-heading {
@@ -420,7 +427,7 @@ main {
 }
 
 .about-project-card {
-    background: var(--about-cream);
+    background: var(--about-white);
 }
 
 .project-image img {
@@ -428,7 +435,7 @@ main {
     height: 240px;
     object-fit: cover;
     display: block;
-    background: #e8e3d8;
+    background: #E8DCE5;
 }
 
 .project-info {
@@ -462,7 +469,9 @@ main {
 ========================================= */
 
 .about-cta {
-    background: var(--about-cream);
+    background:
+        radial-gradient(circle at 50% 0%, rgba(139, 91, 126, 0.25), transparent 55%),
+        var(--about-plum-dark);
     text-align: center;
 }
 
@@ -473,25 +482,25 @@ main {
     font-size: clamp(38px, 5vw, 60px);
     font-weight: 400;
     line-height: 1.25;
-    color: var(--about-navy);
+    color: var(--about-white);
 }
 
 .about-cta h2 span {
-    color: var(--about-gold);
+    color: var(--about-soft-pink);
 }
 
 .about-cta p {
     max-width: 560px;
     margin: 0 auto 35px;
-    color: var(--about-muted);
+    color: #E0D2DC;
     font-size: 14px;
     line-height: 1.9;
 }
 
 .cta-button {
     display: inline-block;
-    background: var(--about-navy);
-    color: white;
+    background: var(--about-cream);
+    color: var(--about-plum-dark);
     padding: 17px 35px;
     text-decoration: none;
     font-size: 13px;
@@ -499,7 +508,8 @@ main {
 }
 
 .cta-button:hover {
-    background: var(--about-gold);
+    background: var(--about-soft-pink);
+    color: var(--about-plum-dark);
 }
 
 
